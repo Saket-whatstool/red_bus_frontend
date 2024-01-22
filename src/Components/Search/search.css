@@ -53,12 +53,12 @@
     margin: 5px;
     width: 200px;
   }
-  .input-container input {
+  /* .input-container input {
     padding: 30px;
     margin: 5px;
     width: 200px;
     font-size: 20px;
-  }
+  } */
 
   .input-container input::placeholder{
     font-size: 18px;
@@ -90,6 +90,15 @@
 
     .bus-search-container{
         margin-top: 200px;
+    }
+
+    .input-container{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .centered-text{
+      padding: 10px;
     }
   }
   
